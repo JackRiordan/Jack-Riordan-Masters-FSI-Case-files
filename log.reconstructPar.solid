@@ -1,0 +1,287 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2012                                  |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : _269d0ffd5c-20210619 OPENFOAM=2012 patch=210618
+Arch   : "LSB;label=32;scalar=64"
+Exec   : reconstructPar -region solid
+Date   : Jul 16 2024
+Time   : 18:11:42
+Host   : Jacks-laptop
+PID    : 13036
+I/O    : uncollated
+Case   : /home/jackriordan/OpenFOAM/jackriordan-v2012/run/FSItests/LG(0.0002)
+nProcs : 1
+trapFpe: Floating point exception trapping enabled (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 5, maxFileModificationPolls 20)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+--> FOAM Warning : 
+    From static Foam::IOstreamOption::compressionType Foam::IOstreamOption::compressionEnum(const Foam::word&, Foam::IOstreamOption::compressionType)
+    in file db/IOstreams/IOstreams/IOstreamOption.C at line 115
+    Unknown compression specifier 'uncompressed', using compression off
+--> FOAM Warning : 
+    From static Foam::IOstreamOption::compressionType Foam::IOstreamOption::compressionEnum(const Foam::word&, Foam::IOstreamOption::compressionType)
+    in file db/IOstreams/IOstreams/IOstreamOption.C at line 115
+    Unknown compression specifier 'uncompressed', using compression off
+--> FOAM Warning : 
+    From static Foam::IOstreamOption::compressionType Foam::IOstreamOption::compressionEnum(const Foam::word&, Foam::IOstreamOption::compressionType)
+    in file db/IOstreams/IOstreams/IOstreamOption.C at line 115
+    Unknown compression specifier 'uncompressed', using compression off
+--> FOAM Warning : 
+    From static Foam::IOstreamOption::compressionType Foam::IOstreamOption::compressionEnum(const Foam::word&, Foam::IOstreamOption::compressionType)
+    in file db/IOstreams/IOstreams/IOstreamOption.C at line 115
+    Unknown compression specifier 'uncompressed', using compression off
+--> FOAM Warning : 
+    From static Foam::IOstreamOption::compressionType Foam::IOstreamOption::compressionEnum(const Foam::word&, Foam::IOstreamOption::compressionType)
+    in file db/IOstreams/IOstreams/IOstreamOption.C at line 115
+    Unknown compression specifier 'uncompressed', using compression off
+--> FOAM Warning : 
+    From static Foam::IOstreamOption::compressionType Foam::IOstreamOption::compressionEnum(const Foam::word&, Foam::IOstreamOption::compressionType)
+    in file db/IOstreams/IOstreams/IOstreamOption.C at line 115
+    Unknown compression specifier 'uncompressed', using compression off
+--> FOAM Warning : 
+    From static Foam::IOstreamOption::compressionType Foam::IOstreamOption::compressionEnum(const Foam::word&, Foam::IOstreamOption::compressionType)
+    in file db/IOstreams/IOstreams/IOstreamOption.C at line 115
+    Unknown compression specifier 'uncompressed', using compression off
+--> FOAM Warning : 
+    From static Foam::IOstreamOption::compressionType Foam::IOstreamOption::compressionEnum(const Foam::word&, Foam::IOstreamOption::compressionType)
+    in file db/IOstreams/IOstreams/IOstreamOption.C at line 115
+    Unknown compression specifier 'uncompressed', using compression off
+--> FOAM Warning : 
+    From static Foam::IOstreamOption::compressionType Foam::IOstreamOption::compressionEnum(const Foam::word&, Foam::IOstreamOption::compressionType)
+    in file db/IOstreams/IOstreams/IOstreamOption.C at line 115
+    Unknown compression specifier 'uncompressed', using compression off
+
+
+Reconstructing fields for mesh solid
+
+Time = 0.104
+
+Reconstructing FV fields
+
+    Reconstructing volScalarFields
+
+        epsilonEq
+        sigmaDiff
+        sigmaEq
+        sigmaHyd
+        sigmaMax
+        sigmaMid
+        sigmaMin
+
+    Reconstructing volVectorFields
+
+        D
+        D_0
+        D_0_0
+        D_0_0_0
+        U
+        sigmaMaxDir
+        sigmaMidDir
+        sigmaMinDir
+
+    Reconstructing volSymmTensorFields
+
+        epsilon
+        sigma
+
+    Reconstructing surfaceScalarFields
+
+        meshPhi
+
+Reconstructing point fields
+
+    Reconstructing pointVectorFields
+
+        pointD
+
+No lagrangian fields
+
+No FA fields
+
+Time = 0.105
+
+Reconstructing FV fields
+
+    Reconstructing volScalarFields
+
+        epsilonEq
+        sigmaDiff
+        sigmaEq
+        sigmaHyd
+        sigmaMax
+        sigmaMid
+        sigmaMin
+
+    Reconstructing volVectorFields
+
+        D
+        D_0
+        D_0_0
+        D_0_0_0
+        U
+        sigmaMaxDir
+        sigmaMidDir
+        sigmaMinDir
+
+    Reconstructing volSymmTensorFields
+
+        epsilon
+        sigma
+
+    Reconstructing surfaceScalarFields
+
+        meshPhi
+
+Reconstructing point fields
+
+    Reconstructing pointVectorFields
+
+        pointD
+
+No lagrangian fields
+
+No FA fields
+
+Time = 0.106
+
+Reconstructing FV fields
+
+    Reconstructing volScalarFields
+
+        epsilonEq
+        sigmaDiff
+        sigmaEq
+        sigmaHyd
+        sigmaMax
+        sigmaMid
+        sigmaMin
+
+    Reconstructing volVectorFields
+
+        D
+        D_0
+        D_0_0
+        D_0_0_0
+        U
+        sigmaMaxDir
+        sigmaMidDir
+        sigmaMinDir
+
+    Reconstructing volSymmTensorFields
+
+        epsilon
+        sigma
+
+    Reconstructing surfaceScalarFields
+
+        meshPhi
+
+Reconstructing point fields
+
+    Reconstructing pointVectorFields
+
+        pointD
+
+No lagrangian fields
+
+No FA fields
+
+Time = 0.107
+
+Reconstructing FV fields
+
+    Reconstructing volScalarFields
+
+        epsilonEq
+        sigmaDiff
+        sigmaEq
+        sigmaHyd
+        sigmaMax
+        sigmaMid
+        sigmaMin
+
+    Reconstructing volVectorFields
+
+        D
+        D_0
+        D_0_0
+        D_0_0_0
+        U
+        sigmaMaxDir
+        sigmaMidDir
+        sigmaMinDir
+
+    Reconstructing volSymmTensorFields
+
+        epsilon
+        sigma
+
+    Reconstructing surfaceScalarFields
+
+        meshPhi
+
+Reconstructing point fields
+
+    Reconstructing pointVectorFields
+
+        pointD
+
+No lagrangian fields
+
+No FA fields
+
+Time = 0.108
+
+Reconstructing FV fields
+
+    Reconstructing volScalarFields
+
+        epsilonEq
+        sigmaDiff
+        sigmaEq
+        sigmaHyd
+        sigmaMax
+        sigmaMid
+        sigmaMin
+
+    Reconstructing volVectorFields
+
+        D
+        D_0
+        D_0_0
+        D_0_0_0
+        U
+        sigmaMaxDir
+        sigmaMidDir
+        sigmaMinDir
+
+    Reconstructing volSymmTensorFields
+
+        epsilon
+        sigma
+
+    Reconstructing surfaceScalarFields
+
+        meshPhi
+
+Reconstructing point fields
+
+    Reconstructing pointVectorFields
+
+        pointD
+
+No lagrangian fields
+
+No FA fields
+
+
+End
+

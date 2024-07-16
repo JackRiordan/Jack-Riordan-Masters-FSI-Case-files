@@ -1,0 +1,58 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2012                                  |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       pointVectorField;
+    location    "0/solid";
+    object      pointD;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+dimensions      [0 1 0 0 0 0 0];
+
+
+internalField   uniform (0 0 0);
+
+boundaryField
+{
+    left
+    {
+        type            fixedValue;
+        value           uniform (0 0 0);
+    }
+    bottom
+    {
+        type            fixedValue;
+        value           nonuniform List<vector> 0();
+    }
+    interface
+    {
+        type            calculated;
+    }
+    procBoundary3to0
+    {
+        type            processor;
+    }
+    procBoundary3to1
+    {
+        type            processor;
+    }
+    procBoundary3to2
+    {
+        type            processor;
+    }
+    procBoundary3to7
+    {
+        type            processor;
+    }
+}
+
+
+// ************************************************************************* //
